@@ -20,7 +20,6 @@ import org.apache.dubbo.tracing.context.DubboClientContext;
 
 import io.micrometer.observation.Observation;
 import io.micrometer.observation.ObservationHandler;
-import io.micrometer.observation.transport.SenderContext;
 import io.micrometer.tracing.Tracer;
 
 public class DubboClientTracingObservationHandler<T extends DubboClientContext> implements ObservationHandler<T> {
