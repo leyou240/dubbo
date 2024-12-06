@@ -35,6 +35,6 @@ public class DubboClientTracingObservationHandler<T extends DubboClientContext> 
 
     @Override
     public boolean supportsContext(Observation.Context context) {
-        return context instanceof SenderContext;
+        return context instanceof DubboClientContext;
     }
 }
